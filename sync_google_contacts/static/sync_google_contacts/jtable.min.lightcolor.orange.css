@@ -1,0 +1,622 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>jtable/lib/themes/lightcolor/orange/jtable.min.css at master · hikalkan/jtable · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="https://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+    <meta name="hostname" content="github-fe139-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 1.9.3p194-tcs-github-tcmalloc (a846054d10) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="B27449DB:6F78:30ADB21:52CC26CD" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="fMtzc3azhIj1YbfJKfMDo/DoZkFov+J6wcfWNknEcd4=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-4dd04ccaf246f824504ba07e20a70fbaf01e667e.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-e528a323feb29c53d05a1de6b96c8a2c138a6983.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+    
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-29a3fb0547e33bd8d4530bbad9bae3ef00d83293.js" type="text/javascript"></script>
+      <script src="https://github.global.ssl.fastly.net/assets/github-4ac46f893910c3da1bdbe9b20092fe75867245d8.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="4a0380e154dc4b4493854b6fa2601ee0">
+
+        <link data-pjax-transient rel='permalink' href='/hikalkan/jtable/blob/88e4d6e2f42462e421b95230556cb534d24958e1/lib/themes/lightcolor/orange/jtable.min.css'>
+  <meta property="og:title" content="jtable"/>
+  <meta property="og:type" content="githubog:gitrepository"/>
+  <meta property="og:url" content="https://github.com/hikalkan/jtable"/>
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/gravatars/gravatar-user-420.png"/>
+  <meta property="og:site_name" content="GitHub"/>
+  <meta property="og:description" content="jtable - A JQuery plugin to create AJAX based CRUD tables."/>
+
+  <meta name="description" content="jtable - A JQuery plugin to create AJAX based CRUD tables." />
+
+  <meta content="1210527" name="octolytics-dimension-user_id" /><meta content="hikalkan" name="octolytics-dimension-user_login" /><meta content="2820592" name="octolytics-dimension-repository_id" /><meta content="hikalkan/jtable" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="2820592" name="octolytics-dimension-repository_network_root_id" /><meta content="hikalkan/jtable" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/hikalkan/jtable/commits/master.atom" rel="alternate" title="Recent Commits to jtable:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production linux vis-public page-blob">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fhikalkan%2Fjtable%2Fblob%2Fmaster%2Flib%2Fthemes%2Flightcolor%2Forange%2Fjtable.min.css">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey=" s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="hikalkan/jtable"
+      data-branch="master"
+      data-sha="f2a03895bfd44c084111fbd76cc96105d98b9054"
+  >
+
+    <input type="hidden" name="nwo" value="hikalkan/jtable" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+      
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2Fhikalkan%2Fjtable"
+    class="minibutton with-count js-toggler-target star-button tooltipped upwards"
+    title="You must be signed in to use this feature" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/hikalkan/jtable/stargazers">
+      240
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fhikalkan%2Fjtable"
+        class="minibutton with-count js-toggler-target fork-button tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/hikalkan/jtable/network" class="social-count">
+        182
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/hikalkan" class="url fn" itemprop="url" rel="author"><span itemprop="title">hikalkan</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/hikalkan/jtable" class="js-current-repository js-repo-home-link">jtable</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      
+
+      <div class="repository-with-sidebar repo-container  ">
+
+        <div class="repository-sidebar">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/hikalkan/jtable" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /hikalkan/jtable">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" title="Issues">
+          <a href="/hikalkan/jtable/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /hikalkan/jtable/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>647</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" title="Pull Requests">
+        <a href="/hikalkan/jtable/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /hikalkan/jtable/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>12</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped leftwards" title="Wiki">
+          <a href="/hikalkan/jtable/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_wiki /hikalkan/jtable/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/hikalkan/jtable/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /hikalkan/jtable/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/hikalkan/jtable/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /hikalkan/jtable/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/hikalkan/jtable/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /hikalkan/jtable/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+            <div class="only-with-full-nav">
+              
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/hikalkan/jtable.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/hikalkan/jtable.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/hikalkan/jtable" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/hikalkan/jtable" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" title="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+              <a href="/hikalkan/jtable/archive/master.zip"
+                 class="minibutton sidebar-button"
+                 title="Download this repository as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:0b898f46d20fe995b5a5a5b636586d6a -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/hikalkan/jtable/find/master" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
+
+<div class="file-navigation">
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/blob/master/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/tree/v2.3.1/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="v2.3.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.3.1">v2.3.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/tree/v2.3.0/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="v2.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.3.0">v2.3.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/tree/v2.2.1/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="v2.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.2.1">v2.2.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/tree/v2.2.0/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="v2.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.2.0">v2.2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/tree/v2.1.1/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="v2.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.1.1">v2.1.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/tree/v2.1.0/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="v2.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.1.0">v2.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/tree/v2.0.1/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="v2.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v2.0.1">v2.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/hikalkan/jtable/tree/2.0.1/lib/themes/lightcolor/orange/jtable.min.css"
+                 data-name="2.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.1">2.0.1</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/hikalkan/jtable" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">jtable</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/hikalkan/jtable/tree/master/lib" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">lib</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/hikalkan/jtable/tree/master/lib/themes" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">themes</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/hikalkan/jtable/tree/master/lib/themes/lightcolor" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">lightcolor</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/hikalkan/jtable/tree/master/lib/themes/lightcolor/orange" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">orange</span></a></span><span class="separator"> / </span><strong class="final-path">jtable.min.css</strong> <span class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="lib/themes/lightcolor/orange/jtable.min.css" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+
+  <div class="commit file-history-tease">
+    <img class="main-avatar" height="24" src="https://2.gravatar.com/avatar/f169b2af5af7162aa85f0325ec74bfb9?d=https%3A%2F%2Fidenticons.github.com%2Fe41e4de4f824b8a74f759a85cccc8ae4.png&amp;r=x&amp;s=140" width="24" />
+    <span class="author"><a href="/hikalkan" rel="author">hikalkan</a></span>
+    <time class="js-relative-date" datetime="2013-03-10T09:13:31-07:00" title="2013-03-10 09:13:31">March 10, 2013</time>
+    <div class="commit-title">
+        <a href="/hikalkan/jtable/commit/1a540bc9dd0ce3855c41fd94f1894d67854ec8d3" class="message" data-pjax="true" title="jTable v2.3.0
+
+jQueryUI theme support with jqueryuiTheme option. [#135]
+New field option: inputTitle. [#265]
+Fixed some issues. [#134, #270, #371]
+Updated some localization files.">jTable v2.3.0</a>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>1</strong> contributor</a></p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img height="24" src="https://2.gravatar.com/avatar/f169b2af5af7162aa85f0325ec74bfb9?d=https%3A%2F%2Fidenticons.github.com%2Fe41e4de4f824b8a74f759a85cccc8ae4.png&amp;r=x&amp;s=140" width="24" />
+            <a href="/hikalkan">hikalkan</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div id="files" class="bubble">
+  <div class="file">
+    <div class="meta">
+      <div class="info">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+          <span>1 lines (1 sloc)</span>
+        <span>15.823 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+              <a class="minibutton disabled tooltipped leftwards" href="#"
+                 title="You must be signed in to make or propose changes">Edit</a>
+          <a href="/hikalkan/jtable/raw/master/lib/themes/lightcolor/orange/jtable.min.css" class="button minibutton " id="raw-url">Raw</a>
+            <a href="/hikalkan/jtable/blame/master/lib/themes/lightcolor/orange/jtable.min.css" class="button minibutton ">Blame</a>
+          <a href="/hikalkan/jtable/commits/master/lib/themes/lightcolor/orange/jtable.min.css" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+          <a class="minibutton danger disabled empty-icon tooltipped leftwards" href="#"
+             title="You must be signed in to make or propose changes">
+          Delete
+        </a>
+      </div><!-- /.actions -->
+
+    </div>
+>
+        <div class="blob-wrapper data type-css js-blob-data">
+        <table class="file-code file-diff">
+          <tr class="file-code-line">
+            <td class="blob-line-nums">
+              <span id="L1" rel="#L1">1</span>
+
+            </td>
+            <td class="blob-line-code">
+                  <div class="code-body highlight"><pre><div class='line' id='LC1'>﻿div.jtable-main-container{position:relative}div.jtable-main-container div.jtable-title{position:relative;text-align:left}div.jtable-main-container div.jtable-title .jtable-close-button{right:0;top:0;bottom:0;position:absolute}div.jtable-main-container div.jtable-title div.jtable-toolbar{bottom:0;right:0;position:absolute;display:inline-block;margin-right:5px}div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item{position:relative;display:inline-block;margin:0 0 0 5px;cursor:pointer;font-size:.9em;padding:2px;vertical-align:bottom}div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item span.jtable-toolbar-item-icon{display:inline-block;margin:2px;vertical-align:middle;width:16px;height:16px}div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item span.jtable-toolbar-item-text{display:inline-block;margin:2px;vertical-align:middle}div.jtable-main-container div.jtable-title .jtable-close-button+div.jtable-toolbar{margin-right:30px}div.jtable-main-container table.jtable{width:100%}div.jtable-main-container table.jtable thead th{vertical-align:middle;text-align:left}div.jtable-main-container table.jtable thead th.jtable-column-header div.jtable-column-header-container{position:relative}div.jtable-main-container table.jtable thead th.jtable-column-header div.jtable-column-header-container span.jtable-column-header-text{display:inline-block}div.jtable-main-container table.jtable thead th.jtable-column-header div.jtable-column-header-container div.jtable-column-resize-handler{position:absolute;height:24px;width:8px;right:-8px;top:-2px;z-index:2;cursor:col-resize}div.jtable-main-container table.jtable thead th.jtable-command-column-header{text-align:center}div.jtable-main-container table.jtable thead th.jtable-column-header-selecting{text-align:center;width:1%}div.jtable-main-container table.jtable thead th.jtable-column-header-selecting input{cursor:pointer}div.jtable-main-container table.jtable thead th.jtable-column-header-sortable{cursor:pointer}div.jtable-main-container table.jtable tbody tr&gt;td .jtable-command-button{margin:0;padding:0;cursor:pointer;border:none;display:inline}div.jtable-main-container table.jtable tbody tr&gt;td .jtable-command-button span{display:none}div.jtable-main-container table.jtable tbody tr&gt;td.jtable-command-column{text-align:center;vertical-align:middle}div.jtable-main-container table.jtable tbody tr&gt;td.jtable-selecting-column{text-align:center;vertical-align:middle}div.jtable-main-container table.jtable tbody tr&gt;td.jtable-selecting-column input{cursor:pointer}div.jtable-main-container table.jtable tbody tr.jtable-no-data-row{text-align:center}div.jtable-main-container&gt;div.jtable-bottom-panel{position:relative;min-height:24px;text-align:left}div.jtable-main-container&gt;div.jtable-bottom-panel div.jtable-right-area{right:0;top:0;bottom:0;position:absolute}div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list{display:inline-block}div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number,div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-space,div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-first,div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-last,div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-previous,div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-next,div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active{padding:2px 5px;display:inline-block;cursor:pointer}div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-space,div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active,div.jtable-main-container&gt;div.jtable-bottom-panel .jtable-page-list .jtable-page-number-disabled{cursor:default}div.jtable-main-container&gt;div.jtable-bottom-panel span.jtable-page-size-change{margin-left:5px}div.jtable-main-container&gt;div.jtable-bottom-panel span.jtable-goto-page{margin-left:5px}div.jtable-main-container&gt;div.jtable-bottom-panel span.jtable-goto-page input[type=text]{width:22px}div.jtable-main-container&gt;div.jtable-bottom-panel span.jtable-page-info{vertical-align:middle}div.jtable-main-container div.jtable-column-resize-bar{opacity:.5;filter:alpha(opacity=50);position:absolute;display:none;width:1px;background-color:#000}div.jtable-main-container div.jtable-column-selection-container{position:absolute;display:none;border:1px solid #c8c8c8;background:#fff;color:#000;z-index:101;padding:5px}div.jtable-main-container div.jtable-column-selection-container ul.jtable-column-select-list{margin:0;padding:0;list-style:none}div.jtable-main-container div.jtable-column-selection-container ul.jtable-column-select-list li{margin:0;padding:2px 0}div.jtable-main-container div.jtable-column-selection-container ul.jtable-column-select-list li label span{position:relative;top:-1px;margin-left:4px}div.jtable-main-container div.jtable-column-selection-container ul.jtable-column-select-list li input[type=&quot;checkbox&quot;]{cursor:pointer}form.jtable-dialog-form div.jtable-input-field-container{padding:2px 0 3px 0;border-bottom:1px solid #ddd}form.jtable-dialog-form div.jtable-input-field-container:last-child{border:none}form.jtable-dialog-form div.jtable-input-label{padding:2px 3px;font-size:1.1em;color:#666}form.jtable-dialog-form div.jtable-input{padding:2px}form.jtable-dialog-form div.jtable-date-input{}form.jtable-dialog-form div.jtable-text-input{}form.jtable-dialog-form span.jtable-option-text-clickable{position:relative;top:-2px}form.jtable-dialog-form div.jtable-textarea-input textarea{width:300px;min-height:60px}form.jtable-dialog-form div.jtable-checkbox-input span,form.jtable-dialog-form div.jtable-radio-input span{padding-left:4px}form.jtable-dialog-form div.jtable-radio-input input,form.jtable-dialog-form div.jtable-checkbox-input input,form.jtable-dialog-form span.jtable-option-text-clickable{cursor:pointer}div.jtable-busy-panel-background{opacity:.1;filter:alpha(opacity=50);z-index:998;position:absolute;background-color:#000}div.jtable-busy-panel-background.jtable-busy-panel-background-invisible{background-color:transparent}div.jtable-busy-message{cursor:wait;z-index:999;position:absolute;margin:5px}div.jtable-contextmenu-overlay{position:fixed;left:0;top:0;width:100%;height:100%;z-index:100}div.jtable-main-container{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px;font-weight:400;color:#222}div.jtable-main-container div.jtable-title{-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;position:relative;line-height:34px;box-shadow:inset 0 1px 0 0 rgba(255,255,255,.5);padding-left:10px;border:1px solid}div.jtable-main-container div.jtable-title div.jtable-title-text{font-weight:bold}div.jtable-main-container div.jtable-title .jtable-close-button{right:6px;top:6px;bottom:6px;position:absolute;opacity:.8;filter:alpha(opacity=50);background:url(&#39;../../lightcolor/close.png&#39;) no-repeat;width:22px;height:22px}div.jtable-main-container div.jtable-title .jtable-close-button:hover{opacity:1;filter:alpha(opacity=50)}div.jtable-main-container div.jtable-title div.jtable-toolbar{bottom:0;right:0;position:absolute;line-height:26px}div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item.jtable-toolbar-item-add-record span.jtable-toolbar-item-icon{background-image:url(&#39;../../lightcolor/add.png&#39;)}div.jtable-main-container table.jtable{border-collapse:collapse;border-spacing:0;border:1px solid #c8c8c8}div.jtable-main-container table.jtable thead{background:url(&#39;../../lightcolor/bg-thead.png&#39;) repeat-x scroll top left #ddd;border-top:1px solid #fff;border-bottom:1px solid #c8c8c8}div.jtable-main-container table.jtable thead th{padding:4px 3px 4px 6px;border-left:1px solid #fff;border-right:1px solid #c8c8c8}div.jtable-main-container table.jtable thead th:first-child{border-left:none}div.jtable-main-container table.jtable thead thth:last-child{border-right:none}div.jtable-main-container table.jtable thead th.jtable-column-header div.jtable-column-header-container{height:20px}div.jtable-main-container table.jtable thead th.jtable-column-header span.jtable-column-header-text{margin-top:3px}div.jtable-main-container table.jtable thead th.jtable-column-header-selecting{padding:5px}div.jtable-main-container table.jtable thead th.jtable-column-header-sortable div.jtable-column-header-container{background:url(&#39;../../lightcolor/column-sortable.png&#39;) no-repeat right}div.jtable-main-container table.jtable thead th.jtable-column-header-sorted-asc div.jtable-column-header-container{background:url(&#39;../../lightcolor/column-asc.png&#39;) no-repeat right}div.jtable-main-container table.jtable thead th.jtable-column-header-sorted-desc div.jtable-column-header-container{background:url(&#39;../../lightcolor/column-desc.png&#39;) no-repeat right}div.jtable-main-container table.jtable tbody&gt;tr{padding:2px;background:#f8f8f8;height:30px}div.jtable-main-container table.jtable tbody&gt;tr&gt;td{padding:5px;border-left:1px dotted #bebebe}div.jtable-main-container table.jtable tbody&gt;tr&gt;td:first-child{border-left:none}div.jtable-main-container table.jtable tbody&gt;tr&gt;td .jtable-edit-command-button{background:url(&#39;../../lightcolor/edit.png&#39;) no-repeat;width:16px;height:16px}div.jtable-main-container table.jtable tbody&gt;tr&gt;td .jtable-delete-command-button{background:url(&#39;../../lightcolor/delete.png&#39;) no-repeat;width:16px;height:16px}div.jtable-main-container table.jtable tbody&gt;tr.jtable-row-even{background:#f0f0f0}div.jtable-main-container table.jtable tbody&gt;tr:hover{background:#e8eaef}div.jtable-main-container table.jtable tbody&gt;tr.jtable-row-selected{-webkit-text-shadow:0 1px 0 #333;text-shadow:0 1px 0 #333;color:#fcfcfc}div.jtable-main-container table.jtable tbody&gt;tr.jtable-child-row&gt;td{background-color:#bbb;padding:2px 1px 2px 2px}div.jtable-main-container table.jtable tbody&gt;tr.jtable-child-row&gt;td .jtable{border:none;border-bottom:1px solid #c8c8c8}div.jtable-main-container table.jtable tbody&gt;tr.jtable-child-row&gt;td .jtable-title,div.jtable-main-container table.jtable tbody&gt;tr.jtable-child-row&gt;td .jtable-bottom-panel{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border:none}div.jtable-main-container div.jtable-bottom-panel{-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;padding:1px;background:#fff;border:1px solid #c8c8c8;border-top:none;min-height:24px;line-height:16px;font-size:.9em}div.jtable-main-container div.jtable-bottom-panel div.jtable-right-area{padding:2px}div.jtable-main-container div.jtable-bottom-panel .jtable-page-list{margin:2px}div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-space,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-first,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-last,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-previous,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-next,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active{-webkit-text-shadow:0 1px 0 #fff;text-shadow:0 1px 0 #fff;background-color:#ebebeb;border-style:solid;border-width:1px;border-color:#fff #b5b5b5 #b5b5b5 #fff;padding:2px 5px}div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number:hover,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-first:hover,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-last:hover,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-previous:hover,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-next:hover{background-color:#ddd}div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active{-webkit-text-shadow:0 1px 0 #666;text-shadow:0 1px 0 #666;color:#fcfcfc}div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-disabled{opacity:.5;filter:alpha(opacity=50)}div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-disabled.jtable-page-number-active{opacity:1;filter:alpha(opacity=50)}div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-disabled:hover{background-color:#ebebeb}div.jtable-main-container div.jtable-bottom-panel .jtable-page-info{display:inline-block;padding:4px}div.jtable-main-container div.jtable-bottom-panel span.jtable-add-record{margin:3px}div.jtable-main-container div.jtable-bottom-panel span.jtable-add-record a{font-weight:bold;text-decoration:none}div.jtable-main-container div.jtable-bottom-panel span.jtable-add-record a:hover{text-decoration:underline}div.jtable-main-container div.jtable-column-selection-container{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:2px 2px 4px rgba(50,51,50,.75);-moz-box-shadow:2px 2px 4px rgba(50,51,50,.75);box-shadow:2px 2px 4px rgba(50,51,50,.75)}form.jtable-dialog-form{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px;font-weight:400}form.jtable-dialog-form div.jtable-input-label{font-weight:bold}div.jtable-busy-message{-webkit-text-shadow:0 1px 0 #333;text-shadow:0 1px 0 #333;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:2px 2px 4px rgba(50,51,50,.75);-moz-box-shadow:2px 2px 4px rgba(50,51,50,.75);box-shadow:2px 2px 4px rgba(50,51,50,.75);color:#fff;border:1px solid;padding:3px 5px 5px 27px;background:url(&#39;../../lightcolor/orange/loading.gif&#39;) no-repeat;background-position:5px}div.jtable-main-container div.jtable-title{background:#ffa366;background:-moz-linear-gradient(top,#ffa366 0%,#da5700 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffa366),color-stop(100%,#da5700));background:-webkit-linear-gradient(top,#ffa366 0%,#da5700 100%);background:-o-linear-gradient(top,#ffa366 0%,#da5700 100%);background:-ms-linear-gradient(top,#ffa366 0%,#da5700 100%);background:linear-gradient(to bottom,#ffa366 0%,#da5700 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffa366&#39;,endColorstr=&#39;#da5700&#39;,GradientType=0);border-color:#804620}div.jtable-main-container div.jtable-title div.jtable-title-text{-webkit-text-shadow:0 1px 0 #666;text-shadow:0 1px 0 #666;color:#fff}div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item{color:#fff}div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item.jtable-toolbar-item-hover{background-color:#c45206}div.jtable-main-container table.jtable tbody&gt;tr.jtable-row-selected,div.jtable-main-container table.jtable tbody&gt;tr.jtable-row-selected:hover{background-color:#f36301}div.jtable-main-container table.jtable tbody&gt;tr.jtable-row-created,div.jtable-main-container table.jtable tbody&gt;tr.jtable-row-updated,div.jtable-main-container table.jtable tbody&gt;tr.jtable-row-deleting{background-color:#f36301}div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active,div.jtable-main-container div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active:hover{background-color:#f36301;border-color:#d14100}div.jtable-main-container div.jtable-bottom-panel span.jtable-add-record a{color:#cc5200}div.jtable-busy-message{border-color:#a14100;background-color:#f36301}</div></pre></div>
+            </td>
+          </tr>
+        </table>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.07102s from github-fe139-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/hikalkan/jtable/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+

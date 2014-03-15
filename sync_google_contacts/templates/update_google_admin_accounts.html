@@ -1,0 +1,22 @@
+{% extends "google_admin_accounts_base.html" %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+		{% block head_google_admin_accounts %}
+		{{ block.super }}
+		{% endblock %}
+	</head>
+
+	<body>
+
+
+    <article>
+		{% block google_admin_accounts %}
+		{{block.super}}
+		<div id="GoogleAdminAccounts" class="grid_16">{% csrf_token %}</div>
+		{% endblock %}
+	</article>
+
+	</body>
+</html>
