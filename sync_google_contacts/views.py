@@ -78,6 +78,7 @@ def ajax_google_account_display(request):
         adict['email'] = admin.email
         adict['password'] = admin.password
         adict['priority'] = admin.priority
+        adict['enable'] = admin.enable
         response_dict['Records'].append(adict)
 
     return HttpResponse(simplejson.dumps(response_dict), mimetype='application/javascript')
@@ -100,6 +101,8 @@ def ajax_google_account_update(request):
     admin.email = adict['email']
     admin.password = adict['password']
     admin.priority = adict['priority']
+    if not adict.has_key('enable') : adict['enable'] = False
+    admin.enable = adict['enable']
     admin.save()
     response_dict['Records'].append(adict)
 
@@ -132,6 +135,8 @@ def ajax_google_account_add(request):
         admin.email = adict['email']
         admin.password = adict['password']
         admin.priority = int(adict['priority'])
+        if not adict.has_key('enable') : adict['enable'] = False
+        admin.enable = adict['enable']
         admin.save()
         adict['Id'] = admin.id
         print adict
@@ -156,5 +161,3 @@ def ajax_google_account_delete(request):
     admin.delete()
 
     return HttpResponse(simplejson.dumps(response_dict), mimetype='application/javascript')
-
-

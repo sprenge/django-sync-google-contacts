@@ -9,6 +9,7 @@ class GoogleAdminAccounts(models.Model):
     password = models.CharField(max_length=80)
     email = models.CharField(max_length=128, blank=True)
     flags = BitField(flags=('tbc',),blank=True)
+    enable = models.BooleanField(default=True)
 
     def __unicode__(self):
         return u'%s' % (self.email)
