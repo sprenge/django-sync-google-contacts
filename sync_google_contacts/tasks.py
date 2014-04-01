@@ -4,19 +4,22 @@ from datetime import timedelta
 import datetime
 import time
 import pprint
+import pytz
 
 from pygeocoder import Geocoder
 import phonenumbers
 
-from django.contrib.auth.models import User
-from django.contrib.auth.models import Group
-
 from celery.task import PeriodicTask
+from django.utils import timezone
 
 if __name__ != "__main__":
+    from django.contrib.auth.models import User
+    from django.contrib.auth.models import Group
     from models import GoogleAdminAccounts
+    from models import PhoneNumber
 import gdata.contacts.client as gdc
 
+tel_types = ['mobile', 'work', 'home', 'main', 'work_fax', 'home_fax']
 contacts = []
 allgroups = []
 
@@ -61,22 +64,23 @@ def gather_contacts(email, password):
             email = ''
             if group_mem :
                 contact = {}
-                print '----'
-                for rec in group_mem :
-                    print rec.__dict__
-                #print entry.__dict__
                 change_date = time.strptime(entry.updated.text,  "%Y-%m-%dT%H:%M:%S.%fZ")
                 django_change_date = datetime.datetime.fromtimestamp(time.mktime(change_date))
-                print 'djd:',django_change_date
+                #print 'djd:',django_change_date
                 contact['last_changed'] = django_change_date
 
                 contact['phones'] = []
                 recs =  entry.phone_number
                 for rec in recs:
-                    print rec.__dict__
-                    pn = rec.uri.replace('tel:','')
-                    ppn =  phonenumbers.parse(pn, None)
-                    contact['phones'].append(ppn)
+                    if rec.uri != None :
+                        #print rec.__dict__
+                        pdict = {}
+
+                        pn = rec.uri.replace('tel:','')
+                        ppn =  phonenumbers.parse(pn, None)
+                        pdict['tel'] = ppn
+                        pdict['type'] = rec.rel
+                        contact['phones'].append(pdict)
 
                 contact['addresses'] = []
                 recs = entry.structured_postal_address
@@ -85,15 +89,12 @@ def gather_contacts(email, password):
                     gaddr = Geocoder.geocode(addr)
                     contact['addresses'].append(gaddr)
 
-                print '----'
                 contact['family_name'] = ''
                 contact['given_name'] = ''
                 if entry.name != None :
-                    #print entry.name.__dict__
                     if entry.name.family_name != None : contact['family_name'] = entry.name.family_name.text
                     if entry.name.given_name != None : contact['given_name'] = entry.name.given_name.text
                 for rec in entry.email:
-                    #print rec
                     if rec.primary == 'true' :
                         email = rec.address
                         group_list = []
@@ -105,8 +106,6 @@ def gather_contacts(email, password):
                         contact['groups'] = group_list
                         contacts.append(contact)
 
-                #print entry.email[0].__dict__
-            #print email
     print "results"
     pp = pprint.PrettyPrinter(depth=6)
     pp.pprint(contacts)
@@ -156,6 +155,7 @@ class pull_contacts_from_google(PeriodicTask):
         global contacts
         global allgroups
 
+        user = User.objects.get(email='a@a.be')
         contacts = []
         allgroups = []
         #print "sync google contacts"
@@ -164,6 +164,27 @@ class pull_contacts_from_google(PeriodicTask):
             account = admin_accounts[0]
             gather_contacts(account.email, account.password)
             write_contacts()
+            for contact in contacts:
+                t = timezone.now() # offset-awared datetime
+                now_aware = contact['last_changed'].replace(tzinfo=pytz.UTC)
+                #t.astimezone(timezone.utc).replace(tzinfo=None)
+                #print now_aware < account.last_changed
+                if len(contact['phones']) > 0 :
+                    p = PhoneNumber()
+                    p.user = user
+                    pn = phonenumbers.format_number(contact['phones'][0]['tel'], phonenumbers.PhoneNumberFormat.E164)
+                    found_type = ""
+                    for tel_type in tel_types:
+                        if tel_type in contact['phones'][0]['type'] :
+                            found_type = tel_type
+
+                    #found = any(contact['phones'][0]['type'] in item for item in tel_types)
+                    print 'fnd:', found_type
+                    p.phone_type = found_type
+                    p.phone_number = pn
+                    p.save()
+            account.last_changed = t
+            account.save()
 
 if __name__ == "__main__":
     gather_contacts('sprengee54@gmail.com','quinn2004')
